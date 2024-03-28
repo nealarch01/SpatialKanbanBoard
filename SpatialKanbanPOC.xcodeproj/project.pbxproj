@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6D87172BAE3A3700C18C63 /* SpatialKanbanPOCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D87162BAE3A3700C18C63 /* SpatialKanbanPOCApp.swift */; };
+		BD6D87192BAE3A3700C18C63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D87182BAE3A3700C18C63 /* ContentView.swift */; };
+		BD6D871B2BAE3A3900C18C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6D871A2BAE3A3900C18C63 /* Assets.xcassets */; };
+		BD6D871E2BAE3A3900C18C63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6D871D2BAE3A3900C18C63 /* Preview Assets.xcassets */; };
+		BD6D87292BAE3A3900C18C63 /* SpatialKanbanPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D87282BAE3A3900C18C63 /* SpatialKanbanPOCTests.swift */; };
+		BD6D87332BAE3B3E00C18C63 /* KanbanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D87322BAE3B3E00C18C63 /* KanbanListView.swift */; };
+		BD6D87352BAF71AD00C18C63 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D87342BAF71AD00C18C63 /* Ticket.swift */; };
+		BD6D873D2BAFA91500C18C63 /* KanbanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D873C2BAFA91500C18C63 /* KanbanList.swift */; };
+		BD6D87402BAFB29B00C18C63 /* MockDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6D873F2BAFB29B00C18C63 /* MockDataProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD6D87252BAE3A3900C18C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6D87072BAE3A3700C18C63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6D870E2BAE3A3700C18C63;
+			remoteInfo = SpatialKanbanPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD6D870F2BAE3A3700C18C63 /* SpatialKanbanPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialKanbanPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6D87162BAE3A3700C18C63 /* SpatialKanbanPOCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialKanbanPOCApp.swift; sourceTree = "<group>"; };
+		BD6D87182BAE3A3700C18C63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD6D871A2BAE3A3900C18C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6D871D2BAE3A3900C18C63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD6D871F2BAE3A3900C18C63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6D87242BAE3A3900C18C63 /* SpatialKanbanPOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialKanbanPOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6D87282BAE3A3900C18C63 /* SpatialKanbanPOCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialKanbanPOCTests.swift; sourceTree = "<group>"; };
+		BD6D87322BAE3B3E00C18C63 /* KanbanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanListView.swift; sourceTree = "<group>"; };
+		BD6D87342BAF71AD00C18C63 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		BD6D873C2BAFA91500C18C63 /* KanbanList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanbanList.swift; sourceTree = "<group>"; };
+		BD6D873F2BAFB29B00C18C63 /* MockDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataProvider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6D870C2BAE3A3700C18C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6D87212BAE3A3900C18C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6D87062BAE3A3700C18C63 = {
+			isa = PBXGroup;
+			children = (
+				BD6D87112BAE3A3700C18C63 /* SpatialKanbanPOC */,
+				BD6D87272BAE3A3900C18C63 /* SpatialKanbanPOCTests */,
+				BD6D87102BAE3A3700C18C63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6D87102BAE3A3700C18C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D870F2BAE3A3700C18C63 /* SpatialKanbanPOC.app */,
+				BD6D87242BAE3A3900C18C63 /* SpatialKanbanPOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6D87112BAE3A3700C18C63 /* SpatialKanbanPOC */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D873E2BAFB28F00C18C63 /* Support */,
+				BD6D87362BAF72DB00C18C63 /* Models */,
+				BD6D87382BAF765500C18C63 /* Views */,
+				BD6D87162BAE3A3700C18C63 /* SpatialKanbanPOCApp.swift */,
+				BD6D871A2BAE3A3900C18C63 /* Assets.xcassets */,
+				BD6D871F2BAE3A3900C18C63 /* Info.plist */,
+				BD6D871C2BAE3A3900C18C63 /* Preview Content */,
+			);
+			path = SpatialKanbanPOC;
+			sourceTree = "<group>";
+		};
+		BD6D871C2BAE3A3900C18C63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D871D2BAE3A3900C18C63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD6D87272BAE3A3900C18C63 /* SpatialKanbanPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D87282BAE3A3900C18C63 /* SpatialKanbanPOCTests.swift */,
+			);
+			path = SpatialKanbanPOCTests;
+			sourceTree = "<group>";
+		};
+		BD6D87362BAF72DB00C18C63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D87342BAF71AD00C18C63 /* Ticket.swift */,
+				BD6D873C2BAFA91500C18C63 /* KanbanList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD6D87382BAF765500C18C63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D87322BAE3B3E00C18C63 /* KanbanListView.swift */,
+				BD6D87182BAE3A3700C18C63 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD6D873E2BAFB28F00C18C63 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BD6D873F2BAFB29B00C18C63 /* MockDataProvider.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6D870E2BAE3A3700C18C63 /* SpatialKanbanPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6D872C2BAE3A3900C18C63 /* Build configuration list for PBXNativeTarget "SpatialKanbanPOC" */;
+			buildPhases = (
+				BD6D870B2BAE3A3700C18C63 /* Sources */,
+				BD6D870C2BAE3A3700C18C63 /* Frameworks */,
+				BD6D870D2BAE3A3700C18C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialKanbanPOC;
+			packageProductDependencies = (
+			);
+			productName = SpatialKanbanPOC;
+			productReference = BD6D870F2BAE3A3700C18C63 /* SpatialKanbanPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6D87232BAE3A3900C18C63 /* SpatialKanbanPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6D872F2BAE3A3900C18C63 /* Build configuration list for PBXNativeTarget "SpatialKanbanPOCTests" */;
+			buildPhases = (
+				BD6D87202BAE3A3900C18C63 /* Sources */,
+				BD6D87212BAE3A3900C18C63 /* Frameworks */,
+				BD6D87222BAE3A3900C18C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6D87262BAE3A3900C18C63 /* PBXTargetDependency */,
+			);
+			name = SpatialKanbanPOCTests;
+			productName = SpatialKanbanPOCTests;
+			productReference = BD6D87242BAE3A3900C18C63 /* SpatialKanbanPOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6D87072BAE3A3700C18C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BD6D870E2BAE3A3700C18C63 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BD6D87232BAE3A3900C18C63 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BD6D870E2BAE3A3700C18C63;
+					};
+				};
+			};
+			buildConfigurationList = BD6D870A2BAE3A3700C18C63 /* Build configuration list for PBXProject "SpatialKanbanPOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD6D87062BAE3A3700C18C63;
+			productRefGroup = BD6D87102BAE3A3700C18C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6D870E2BAE3A3700C18C63 /* SpatialKanbanPOC */,
+				BD6D87232BAE3A3900C18C63 /* SpatialKanbanPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6D870D2BAE3A3700C18C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6D871E2BAE3A3900C18C63 /* Preview Assets.xcassets in Resources */,
+				BD6D871B2BAE3A3900C18C63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6D87222BAE3A3900C18C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6D870B2BAE3A3700C18C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6D873D2BAFA91500C18C63 /* KanbanList.swift in Sources */,
+				BD6D87192BAE3A3700C18C63 /* ContentView.swift in Sources */,
+				BD6D87172BAE3A3700C18C63 /* SpatialKanbanPOCApp.swift in Sources */,
+				BD6D87332BAE3B3E00C18C63 /* KanbanListView.swift in Sources */,
+				BD6D87402BAFB29B00C18C63 /* MockDataProvider.swift in Sources */,
+				BD6D87352BAF71AD00C18C63 /* Ticket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6D87202BAE3A3900C18C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6D87292BAE3A3900C18C63 /* SpatialKanbanPOCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD6D87262BAE3A3900C18C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6D870E2BAE3A3700C18C63 /* SpatialKanbanPOC */;
+			targetProxy = BD6D87252BAE3A3900C18C63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD6D872A2BAE3A3900C18C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		BD6D872B2BAE3A3900C18C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		BD6D872D2BAE3A3900C18C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialKanbanPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = HV7TRQD227;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealarchival.SpatialKanbanPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		BD6D872E2BAE3A3900C18C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialKanbanPOC/Preview Content\"";
+				DEVELOPMENT_TEAM = HV7TRQD227;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealarchival.SpatialKanbanPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		BD6D87302BAE3A3900C18C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV7TRQD227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealarchival.SpatialKanbanPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialKanbanPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialKanbanPOC";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		BD6D87312BAE3A3900C18C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV7TRQD227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nealarchival.SpatialKanbanPOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialKanbanPOC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialKanbanPOC";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6D870A2BAE3A3700C18C63 /* Build configuration list for PBXProject "SpatialKanbanPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6D872A2BAE3A3900C18C63 /* Debug */,
+				BD6D872B2BAE3A3900C18C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6D872C2BAE3A3900C18C63 /* Build configuration list for PBXNativeTarget "SpatialKanbanPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6D872D2BAE3A3900C18C63 /* Debug */,
+				BD6D872E2BAE3A3900C18C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6D872F2BAE3A3900C18C63 /* Build configuration list for PBXNativeTarget "SpatialKanbanPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6D87302BAE3A3900C18C63 /* Debug */,
+				BD6D87312BAE3A3900C18C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6D87072BAE3A3700C18C63 /* Project object */;
+}
